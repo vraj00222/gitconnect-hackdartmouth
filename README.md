@@ -17,7 +17,7 @@ Git-Connect helps you find authentic GitHub developers and tech communities by a
 
 ## 📸 Screenshots
 
-> _Coming soon!_ (You can add them later once deployed!)
+
 
 ---
 
