@@ -1,12 +1,40 @@
-# React + Vite
+# Git-Connect 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Discover and connect with real developers, faster.
 
-Currently, two official plugins are available:
+Git-Connect helps you find authentic GitHub developers and tech communities by analyzing their latest public projects and summarizing their skills using AI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
+- 🔎 **Smart Search**: Search by name, bio, or even by technology stack (Java, Python, Web3, etc).
+- 🧠 **AI-Powered Summaries**: Gemini AI summarizes top developers' recent work and skills.
+- 🎨 **Elegant Profiles**: Instant access to GitHub links, project highlights, and social media profiles.
+- 💬 **Dynamic Flip Cards**: Hover and flip to explore AI summaries in a beautiful UI.
+- ✨ **Floating GitHub aesthetics**: A lively, professional look for networking and discovery.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+> _Coming soon!_ (You can add them later once deployed!)
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone the Repo
+git clone https://github.com/vraj00222/gitconnect-hackdartmouth.git
+cd gitconnect-hackdartmouth
+
+# 2. Install Dependencies
+npm install
+
+# 3. Set Up Environment Variables
+# Create a .env file in the root folder with:
+VITE_GITHUB_TOKEN=your_github_token_here
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+
+# 4. Run the Project
+npm run dev
