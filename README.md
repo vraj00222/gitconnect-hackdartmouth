@@ -1,6 +1,7 @@
 # Git-Connect 🚀
+![image](https://github.com/user-attachments/assets/d2610d53-f9ec-4b2f-be37-7589af2505d4)
 
-Discover and connect with real developers, faster.
+Discover and connect with real developers faster.
 
 Git-Connect helps you find authentic GitHub developers and tech communities by analyzing their latest public projects and summarizing their skills using AI.
 
