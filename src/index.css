@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e0e7ff, #f9fafb);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  margin: 0;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  100% { transform: translateY(10px); }
+}
+
+@keyframes float2 {
+  0% { transform: translateY(0px); }
+  100% { transform: translateY(-10px); }
+}
+
+/* Custom Scrollbar for Summary inside Cards */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bfa2f7;
+  border-radius: 10px;
+}
