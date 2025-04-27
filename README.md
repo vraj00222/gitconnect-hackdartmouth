@@ -17,7 +17,10 @@ Git-Connect helps you find authentic GitHub developers and tech communities by a
 
 ## 📸 Screenshots
 
-
+<img width="1512" alt="Screenshot 2025-04-27 at 1 49 08 AM" src="https://github.com/user-attachments/assets/8cfc3b22-9560-462d-95a6-b4a660ea9424" />
+<img width="1503" alt="Screenshot 2025-04-27 at 1 48 58 AM" src="https://github.com/user-attachments/assets/5a35bc08-1cf5-46d2-9c4f-c28fcc7cffb9" />
+<img width="1512" alt="Screenshot 2025-04-27 at 1 46 27 AM" src="https://github.com/user-attachments/assets/6dd6c910-2b0e-42c6-81d6-68ef8c82e581" />
+<img width="1503" alt="Screenshot 2025-04-27 at 1 48 58 AM" src="https://github.com/user-attachments/assets/b154b4f8-6be9-4318-84ba-c710341b26ba" />
 
 ---
 
