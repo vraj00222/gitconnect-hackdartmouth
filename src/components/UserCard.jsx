@@ -28,21 +28,22 @@ function UserCard({ user }) {
       }}
     >
       {hasSummary && (
-        <div style={{
-          position: 'absolute',
-          top: '12px',
-          right: '12px',
-          backgroundColor: '#bfa2f7',
-          color: 'white',
-          fontSize: '12px',
-          padding: '4px 8px',
-          borderRadius: '12px',
-          fontWeight: 'bold',
-          boxShadow: '0 0 8px rgba(191, 162, 247, 0.7)'
-        }}>
-          Gemini AI
-        </div>
-      )}
+  <img
+    src="/novitalogo.png"
+    alt="Novita AI"
+    style={{
+      position: 'absolute',
+      top: '10px',
+      right: '10px',
+      height: '26px',
+      width: '26px',
+      borderRadius: '6px',
+      backgroundColor: 'white',
+      padding: '2px',
+      boxShadow: '0 0 6px rgba(26, 188, 156, 0.3)'
+    }}
+  />
+)}
 
       <img
         src={user.avatar_url}
