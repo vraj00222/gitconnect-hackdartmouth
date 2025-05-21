@@ -3,7 +3,8 @@ import SearchBar from './components/SearchBar';
 import UserCard from './components/UserCard';
 import { techList } from './techList';
 import { searchUsers, fetchUserDetails, fetchUserRepos } from './services/githubApi';
-import { getGeminiSummary } from './services/geminiApi';
+import { getNovitaSummary } from './services/novitaApi';
+
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -67,23 +68,24 @@ function App() {
           let aiSummary = null;
           if (index < maxSummaries) {
             const userInfo = `
-You are analyzing a GitHub developer's public information.
+You are analyzing the GitHub activity of a software developer.
 
 Here are their 3 most recently updated repositories:
-
 ${repoDetails}
 
-Their GitHub bio says:
+Their GitHub bio:
 "${details.bio || "No bio available."}"
 
 TASK:
-- Summarize the technologies they mainly use.
-- Summarize the kind of projects they build.
-- Summarize their recent work or contributions.
-- Keep it short (2-4 sentences), clean, professional (no emojis).
-- If information is limited, just say they are an active developer in their primary tech area.
-            `;
-            aiSummary = await getGeminiSummary(userInfo);
+- Identify the technologies they frequently use.
+- Describe the type of projects they tend to build.
+- Comment on any recent contributions or patterns you see.
+- Format the summary in 2-4 concise and professional sentences.
+- If there's not enough data, say: "This developer appears active in their core tech area."
+`;
+            //aiSummary = await getGeminiSummary(userInfo);
+            aiSummary = await getNovitaSummary(userInfo);
+
           }
 
           return {
@@ -201,5 +203,9 @@ TASK:
     </div>
   );
 }
+<p style={{ fontSize: '14px', color: '#888', marginTop: '40px' }}>
+🔥 Powered by <a href="https://novita.ai" target="_blank" rel="noopener noreferrer" style={{ color: '#555', textDecoration: 'underline' }}>Novita AI</a>
+</p>
+
 
 export default App;
